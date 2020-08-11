@@ -7,9 +7,9 @@
 3. Complete the basic details - With the name only
 
 > Repository name : Ideally meaningful name that will match your local repository **hello-world-app** <br />
-> Description (optional) : **LEAVE** blank <br /> 
-> Public : **KEEP** selected <br /> 
-> Initialize this repository with a README : **KEEP** unselected <br /> 
+> Description (optional) : **LEAVE** blank <br />
+> Public : **KEEP** selected <br />
+> Initialize this repository with a README : **KEEP** unselected <br />
 
 4. Click 'Create Repository'. **This will show a new page with instructions to create a new local repository from the command line**
 
@@ -27,7 +27,7 @@
   git init
 ```
 
-Initialized empty Git repository in /Users/darealpunjabi/Projects/workspace/**hello-world-app**/.git/
+Initialized empty Git repository in /Users/darealpunjabi/Projects/workspace/hello-world-app/.git/
 
 3. Create a README.md for the project
 ```
@@ -39,12 +39,12 @@ Initialized empty Git repository in /Users/darealpunjabi/Projects/workspace/**he
   git status
 ```
 
-> On branch master <br /> 
-> No commits yet <br /> 
-> Untracked files: <br /> 
-> (use "git add <file>..." to include in what will be committed) <br /> 
-> &nbsp;&nbsp;&nbsp;&nbsp;**README.md** <br /> 
-> nothing added to commit but untracked files present (use "git add" to track) <br /> 
+> On branch master <br />
+> No commits yet <br />
+> Untracked files: <br />
+> (use "git add <file>..." to include in what will be committed) <br />
+> &nbsp;&nbsp;&nbsp;&nbsp;**README.md** <br />
+> nothing added to commit but untracked files present (use "git add" to track) <br />
 
 Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area.
 https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
@@ -61,7 +61,7 @@ https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
   git status
 ```
 
-> On branch master <br /> 
+> On branch master <br />
 > No commits yet <br />
 > Changes to be committed: <br />
 > (use "git rm --cached <file>..." to unstage) <br />
@@ -69,12 +69,12 @@ https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 
 Staged files are under the “Changes to be committed” heading. If you commit at this point, the version of the file at the time you ran git add is what will be in the subsequent historical snapshot
 
-7. Ignorining files
+7. Ignoring files
 ```
   echo .DS_Store >> .gitignore
 ```
 
-"Desktop Services Store" is a hidden file that contains attributes of a folder. Navigating to a folder using the "Finder" on Mac generates a .DS_Store file. Setting up a .gitignore file for the new repository at the start avoid committing files that are not wanted in the Git repository.
+"Desktop Services Store" is a hidden file that contains attributes of a folder. Navigating to a folder using the "Finder" on Mac generates a “.DS_Store” file. Setting up a .gitignore file for the new repository at the start avoid committing files that are not wanted in the Git repository.
 
 7. Committing the changes
 ```
@@ -86,7 +86,7 @@ Staged files are under the “Changes to be committed” heading. If you commit 
 > 1 file changed, 1 insertion(+) <br />
 > create mode 100644 README.md <br />
 
-A commit records the snapshot of the staging area. These points “safe” versions of a project that can reverted if required.
+A commit records the snapshot of the staging area. These points are "safe" versions of a project, providing the ability to revert all files to the commit point.
 
 8. Show commit logs
 ```
@@ -96,12 +96,12 @@ A commit records the snapshot of the staging area. These points “safe” versi
 > Date:   Tue Aug 11 12:14:33 2020 +0100 <br />
 > first commit <br />
 
-This command is used to view commit history of the repository current branch.
+This command is used to view the commit history of the repository on the current branch.
 
 
-9. Link local **Git** repository to remote **Github** repository
+9. Link the local **Git** repository to the remote **Github** repository
 ```
-  git remote add origin https://github.com/DaRealPunjabi/**hello-world-app**.git
+  git remote add origin https://github.com/DaRealPunjabi/hello-world-app.git
 ```
 
 Specifying origin indicates the **origin** will be hosted on remote **Github**.
@@ -121,4 +121,3 @@ Specifying origin indicates the **origin** will be hosted on remote **Github**.
 > Branch 'master' set up to track remote branch 'master' from 'origin'.<br />
 
 This will push the changes to the master branch.
-
