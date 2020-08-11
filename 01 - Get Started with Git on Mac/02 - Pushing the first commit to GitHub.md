@@ -16,25 +16,25 @@
 
 # Create a local repository
 
-1. Open the terminal and create a project directory
+Open the terminal and create a project directory
 ```
   mkdir hello-world-app
   cd hello-world-app
 ```
 
-2. Create a new local repository
+Create a new local repository
 ```
   git init
 ```
 
 Initialized empty Git repository in /Users/darealpunjabi/Projects/workspace/hello-world-app/.git/
 
-3. Create a README.md for the project
+Create a README.md for the project
 ```
   echo "# Getting started with my first app" >> README.md
 ```
 
-4. Checking the status of our repository
+Checking the status of our repository
 ```
   git status
 ```
@@ -49,14 +49,14 @@ Initialized empty Git repository in /Users/darealpunjabi/Projects/workspace/hell
 Untracked files are any files in your working directory that were not in your last snapshot and are not in your staging area.
 https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 
-5. Tracking new files
+Tracking new files
 ```
   git add README.md
     or
   git add .              # To stage all new/modified file
 ```
 
-6. Checking the status of our repository
+Checking the status of our repository
 ```
   git status
 ```
@@ -69,14 +69,14 @@ https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
 
 Staged files are under the “Changes to be committed” heading. If you commit at this point, the version of the file at the time you ran git add is what will be in the subsequent historical snapshot
 
-7. Ignoring files
+Ignoring files
 ```
   echo .DS_Store >> .gitignore
 ```
 
 "Desktop Services Store" is a hidden file that contains attributes of a folder. Navigating to a folder using the "Finder" on Mac generates a “.DS_Store” file. Setting up a .gitignore file for the new repository at the start avoid committing files that are not wanted in the Git repository.
 
-7. Committing the changes
+Committing the changes
 ```
   git commit -m "first commit"
 ```
@@ -88,7 +88,7 @@ Staged files are under the “Changes to be committed” heading. If you commit 
 
 A commit records the snapshot of the staging area. These points are "safe" versions of a project, providing the ability to revert all files to the commit point.
 
-8. Show commit logs
+Show commit logs
 ```
   git log
 ```
@@ -99,14 +99,14 @@ A commit records the snapshot of the staging area. These points are "safe" versi
 This command is used to view the commit history of the repository on the current branch.
 
 
-9. Link the local **Git** repository to the remote **Github** repository
+Link the local **Git** repository to the remote **Github** repository
 ```
   git remote add origin https://github.com/DaRealPunjabi/hello-world-app.git
 ```
 
 Specifying origin indicates the **origin** will be hosted on remote **Github**.
 
-10.  Push the changes to Github
+Push the changes to Github
 ```
   git push -u origin master
 ```
