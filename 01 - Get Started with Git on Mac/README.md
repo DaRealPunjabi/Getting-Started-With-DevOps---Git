@@ -3,6 +3,6 @@
 ## Features
 Description of important features.
 
- * [Containers](features/containers.md)
- * [a relative link](01 - Install and Configure Git.md)
- * [example](<01 - Install and Configure Git.md>)
+ * [Install](<01 - Install and Configure Git.md>)
+ * [First Commit](<02 - Pushing the first commit to GitHub.md>)
+ 
