@@ -3,8 +3,8 @@
 ## Features
 Description of important features.
 
-### Install
- * [Install](<01 - Install and Configure Git.md>)
+### Installation
+ * [Install & Configure](<01 - Install and Configure Git.md>)
 
 
 ### Explore Features
