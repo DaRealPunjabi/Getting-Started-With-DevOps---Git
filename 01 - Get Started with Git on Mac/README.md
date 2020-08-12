@@ -3,6 +3,9 @@
 ## Features
 Description of important features.
 
+### Install
  * [Install](<01 - Install and Configure Git.md>)
+
+
+### Explore Features
  * [First Commit](<02 - Pushing the first commit to GitHub.md>)
- 
